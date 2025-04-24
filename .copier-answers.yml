@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier.
+_commit: 1.8.4
+_src_path: gh:pawamoy/copier-uv
+author_email: vandy.goel23@gmail.com
+author_fullname: Vandit Goel
+author_username: vandyG
+copyright_date: '2025'
+copyright_holder: Vandit Goel
+copyright_holder_email: vandy.goel23@gmail.com
+copyright_license: MIT
+insiders: false
+project_description: APLU Research for UT Arlington
+project_name: APLU Research
+python_package_command_line_name: aplu-research
+python_package_distribution_name: aplu-research
+python_package_import_name: aplu_research
+repository_name: aplu-research
+repository_namespace: vandyG
+repository_provider: github.com
+
