@@ -31,8 +31,12 @@ classifiers = [
 ]
 dependencies = [
     "fastexcel>=0.13.0",
+    "geopandas>=1.0.1",
+    "nbformat>=4.2.0",
+    "pandas>=2.2.3",
     "plotly>=6.0.1",
     "polars>=1.28.1",
+    "scikit-learn>=1.6.1",
 ]
 
 [project.urls]
