@@ -200,7 +200,7 @@ ipeds_nsf = inst_data.join(
     left_on=["UnitID", "Year"],
     right_on=["IPEDS UnitID", "Fiscal Year"],
     how="inner",
-).sort("UnitID", "Year")
+).sort("UnitID", "Year", descending=[False, True])
 
 # %%
 # Write IPEDS+CARN and NSF
