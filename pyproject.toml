@@ -29,7 +29,11 @@ classifiers = [
     "Topic :: Utilities",
     "Typing :: Typed",
 ]
-dependencies = []
+dependencies = [
+    "fastexcel>=0.13.0",
+    "plotly>=6.0.1",
+    "polars>=1.28.1",
+]
 
 [project.urls]
 Homepage = "https://vandyG.github.io/aplu-research"
@@ -102,6 +106,9 @@ ci = [
     "mkdocstrings[python]>=0.29",
     # YORE: EOL 3.10: Remove line.
     "tomli>=2.0; python_version < '3.11'",
+]
+dev = [
+    "ipykernel>=6.29.5",
 ]
 
 [tool.uv]
