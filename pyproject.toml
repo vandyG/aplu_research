@@ -111,9 +111,6 @@ ci = [
     # YORE: EOL 3.10: Remove line.
     "tomli>=2.0; python_version < '3.11'",
 ]
-dev = [
-    "ipykernel>=6.29.5",
-]
 
 [tool.uv]
 default-groups = ["maintain", "ci", "docs"]
